@@ -1,6 +1,6 @@
 apt install dropbear -y
 wget
-https://raw.githubusercontent.com/Nanda-N4/db/main/n4db
+https://raw.githubusercontent.com/Nanda-N4/db/main/dropbear.conf
 rm -rf /etc/default/dropbear
 mv dropbear /etc/default/dropbear
 /etc/init.d/dropbear restart
